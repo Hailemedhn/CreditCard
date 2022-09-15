@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pay with Credit Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="containerOuter">
+      <div class="container">
+        <div class="image">
+          <img src="shoe.jpg" alt="shoe" />
+        </div>
+        <div class="form">
+          <form action="form.html">
+            <h1>CheckOut</h1>
+            <h2>Payment Information</h2>
+            <label for="cardholder">Cardholder Name</label> <br />
+            <input type="text" name="cardholder" id="cardholder" /> <br />
+            <label for="cardNumber">Card Number</label> <br />
+            <input type="text" name="cardnumber" id="cardNumber" /> <br />
+            <label for="cards">Card Type</label> <br />
+            <select name="cards" id="cards">
+              <option value="">--Select a Card Type</option>
+              <option value="visa">Visa</option>
+              <option value="master">Master</option>
+            </select>
+            <br />
+            <label for="expiry">Expiry:</label>
+            <input type="date" name="expiry" id="expiry" />
+            <label for="cvv">CVV:</label>
+            <input type="text" name="cvv" id="cvv" /> <br />
+            <button type="submit">CheckOut</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

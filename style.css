@@ -1,0 +1,72 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(150, 62, 123);
+}
+.containerOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.background {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.8) 0%,
+    rgba(9, 103, 121, 0.8) 35%,
+    rgba(0, 212, 255, 0.8) 100%
+  );
+}
+.container {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: white;
+  height: 60%;
+  width: 50%;
+}
+input {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid rgb(150, 62, 123);
+  width: 90%;
+}
+select {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid rgb(150, 62, 123);
+  width: 90%;
+}
+#expiry {
+  width: 30%;
+}
+button {
+  margin-top: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.8) 0%,
+    rgba(9, 103, 121, 0.8) 35%,
+    rgba(0, 212, 255, 0.8) 100%
+  );
+  width: 80%;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+img {
+  width: 80%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#cvv {
+  width: 30%;
+}
+.form {
+  margin-left: -30px;
+}
